@@ -10,3 +10,22 @@ body {
 #contentWrap{
   display: none;
 }
+
+#chat{
+  overflow-y: auto;
+  height: 400px;
+}
+
+.contusers{
+  position: fixed;
+  left: 60%;
+}
+
+.error{
+  color:red;
+}
+
+.whisper{
+  color: gray;
+  font-style: italic;
+}
