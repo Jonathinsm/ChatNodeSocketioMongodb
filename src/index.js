@@ -11,7 +11,7 @@ const io = socketio.listen(server);
 
 //db connection
 
-mongoose.connect('mongodb://localhost/chat-databse')
+mongoose.connect('mongodb://localhost:27017/chat-databse')
   .then(db => console.log('db ok'))
   .catch(err => console.log('db err'))
 
